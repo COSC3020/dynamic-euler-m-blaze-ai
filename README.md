@@ -17,3 +17,12 @@ but you need to go beyond that.
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
+
+The worst-case time is $\Theta$(n) because we iterate n times, with each iteration taking constant time for computing factorials and sums. However, this assumes that factorial values are being computed using previously computed factorials, giving linear complexity.
+
+“I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.”
+
+For this assignment, I asked Chat GPT for help regarding errors I was facing with my test cases. I also asked chat GPT for assistance in the specifity of my reasoning for my conclusion.
